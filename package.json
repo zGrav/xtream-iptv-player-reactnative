@@ -1,0 +1,38 @@
+{
+  "name": "xtream-iptv-player-reactnative",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-native": "^2.0.0",
+    "eslint-plugin-flowtype": "^2.40.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-native": "^3.2.0",
+    "react-test-renderer": "16.0.0"
+  },
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {},
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "expo": "^23.0.4",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-23.0.0.tar.gz",
+    "react-native-easy-toast": "^1.0.9",
+    "react-native-elements": "^0.18.5",
+    "react-native-loader": "^1.2.1",
+    "react-native-orientation": "^3.1.3",
+    "react-native-progress": "^3.4.0",
+    "react-native-simple-dialogs": "^0.3.1",
+    "react-native-slider": "^0.11.0",
+    "react-native-vlc-player": "^0.1.0",
+    "react-native-vlcplayer": "git+https://github.com/ruddell/react-native-vlcplayer",
+    "react-navigation": "^1.0.0-beta.23",
+    "sprintf-js": "git+https://github.com/zGrav/sprintf.js"
+  }
+}

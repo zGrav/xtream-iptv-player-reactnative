@@ -1,0 +1,75 @@
+{
+	"account": {
+		"activeConsError": "ERRO!",
+		"activeConsErrorDesc": "A sua conta já está a usar o número máximo de ligações.",
+		"expiredError": "ERRO!",
+		"expiredErrorDesc": "A sua conta expirou, não tem acesso a isto.",
+		"message": "Mensagem:",
+		"mainAccountInfo": "Informação principal da Conta",
+		"mainAccountInfoUsername": "Utilizador:",
+		"mainAccountInfoExpires": "Expira em:",
+		"mainAccountInfoStatus": "Estado:",
+		"miscAccountInfo": "Informação diversa da Conta",
+		"miscAccountInfoCreated": "Criada em:",
+		"miscAccountInfoTrial": "Trial:",
+		"miscAccountInfoActiveConns": "Ligações ativas:",
+		"miscAccountInfoMaxConns": "Ligações máximas:",
+		"signOutButton": "Sair"
+	},
+	"live": {
+		"activityIndicatorText": "Faltam carregar %s Categorias, encontrados %s Canais no total, isto poderá demorar um bocado...",
+		"noCategoriesError": "ERRO!",
+		"noCategoriesErrorDesc": "Sem Categorias/Canais! \n Pode ter ocorrido um erro no servidor ou não tem acesso a isto.",
+		"searchPlaceholder": "Pesquisar por Canal...",
+		"filterChannelsTitle": "Canais",
+		"filterChannelsNotFound": "Sem resultados! A mostrar lista completa."
+	},
+	"liveChannel": {
+		"activityIndicatorText": "A carregar informação do Canal, poderá demorar um bocado...",
+		"epgNotFound": "Sem EPG encontrado para este canal...",
+		"epgTitle": "Título:",
+		"epgDesc": "Descrição:",
+		"epgStartTime": "Início:",
+		"epgEndTime": "Fim:",
+		"fullEPG": "TV Guia do Canal",
+		"message": "Tem outros Reprodutores instalados?\r\n\r\nSe sim, pressione SIM e escolha o seu reprodutor. (AVISO: Para iOS, apenas irá funcionar com o VLC.)\r\n\r\nPressionar NÃO irá iniciar o reprodutor nativo, tenha em mente que NÃO SUPORTA legendas e está numa fase muito experimental para iOS e Android.\r\n\r\nPressionar fora desta caixa cancela a ação.",
+		"no": "NÃO",
+		"title": "Escolha de reprodutor",
+		"viewNow": "VER AGORA",
+		"yes": "SIM"
+	},
+	"login": {
+		"loginButton": "Entrar",
+		"placeholderURL": "URL do Anfitrião",
+		"placeholderUsername": "Utilizador",
+		"placeholderPassword": "Senha",
+		"toastEmptyURL": "Por favor insira um URL!",
+		"toastInvalidURL": "Por favor insira um URL válido!",
+		"toastUsername": "Por favor insira um utilizador!",
+		"toastPassword": "Por favor insira uma senha!",
+		"toastError": "Ocorreu um erro durante a fase de Login!",
+		"wifiWarning": "AVISO!",
+		"wifiWarningDesc": "The use of WiFi with this application is very recommended!"
+	},
+	"vod": {
+		"activityIndicatorText": "Faltam carregar %s Categorias, encontrados %s VODs no total, isto poderá demorar um bocado...",
+		"filterVODsNotFound": "No results found! Default to full list.",
+		"noCategoriesError": "ERRO!",
+		"noCategoriesErrorDesc": "Sem Categorias/VODs! \n Pode ter ocorrido um erro no servidor ou não tem acesso a isto.",
+		"searchPlaceholder": "Pesquisar por VOD..."
+	},
+	"vodChannel": {
+		"message": "Tem outros Reprodutores instalados?\r\n\r\nSe sim, pressione SIM e escolha o seu reprodutor. (AVISO: Para iOS, apenas irá funcionar com o VLC.)\r\n\r\nPressionar NÃO irá iniciar o reprodutor nativo, tenha em mente que NÃO SUPORTA legendas e está numa fase muito experimental para iOS e Android.\r\n\r\nPressionar fora desta caixa cancela a ação.",
+		"no": "NÃO",
+		"title": "Escolha de reprodutor",
+		"viewNow": "VER AGORA",
+		"yes": "SIM",
+		"cast": "Elenco:",
+		"plot": "Enredo:",
+		"genre": "Género:",
+		"rating": "Classificação:",
+		"director": "Director:",
+		"releasedate": "Data de lançamento:",
+		"duration": "Duração:"
+	}
+}

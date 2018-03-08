@@ -1,0 +1,9 @@
+/node_modules
+/yarn-error.log
+.DS_Store
+/.expo
+/.expo-source
+.expo-source
+Pods
+/Pods
+/ios/Pods

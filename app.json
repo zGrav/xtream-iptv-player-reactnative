@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "sdkVersion": "23.0.0",
+    "ios": {
+      "bundleIdentifier": "z.reactnative.iptvplayer",
+      "publishBundlePath": "ios/xtream-iptv-player-reactnative/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/xtream-iptv-player-reactnative/Supporting/shell-app-manifest.json"
+    },
+    "android": {
+      "package": "z.reactnative.iptvplayer"
+    },
+    "name": "xtream-iptv-player-reactnative",
+    "slug": "xtream-iptv-player-reactnative",
+    "icon": "./common/z_1_250.png",
+    "version": "0.1.0",
+    "isDetached": true,
+    "detach": {
+      "scheme": "exp136b7009c22849b18ccdb3f232ca3804",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.1.4-sdk23.0.0-f67c5bc3-4a27-40f6-8686-91e8f868a145.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.1.2-sdk23.0.0-d47f172b-1ed3-4c8f-9e48-239052c678b6.tar.gz"
+    },
+    "loading": {
+      "icon": "./common/z_1_250.png",
+      "hideExponentText": false,
+      "splash": {
+        "image": "./common/z_1_250.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+	"account": {
+		"activeConsError": "ERROR!",
+		"activeConsErrorDesc": "Your account is already using the max amount of connections.",
+		"expiredError": "ERROR!",
+		"expiredErrorDesc": "Your account is expired, you don't have access to this.",
+		"message": "Message:",
+		"mainAccountInfo": "Main Account Information",
+		"mainAccountInfoUsername": "Username:",
+		"mainAccountInfoExpires": "Expires On:",
+		"mainAccountInfoStatus": "Status:",
+		"miscAccountInfo": "Misc. Account Information",
+		"miscAccountInfoCreated": "Created On:",
+		"miscAccountInfoTrial": "Is Trial:",
+		"miscAccountInfoActiveConns": "Active Connections:",
+		"miscAccountInfoMaxConns": "Max Connections:",
+		"signOutButton": "Logout"
+	},
+	"live": {
+		"activityIndicatorText": "%s Categories left to load, obtained %s Channels in total, this might take a while...",
+		"filterChannelsTitle": "Channels",
+		"filterChannelsNotFound": "No results found! Default to full list.",
+		"noCategoriesError": "ERROR!",
+		"noCategoriesErrorDesc": "No Categories/Channels found! \n Could be an error on the Server, or you don't have access to this.",
+		"searchPlaceholder": "Search by Channel..."
+	},
+	"liveChannel": {
+		"activityIndicatorText": "Loading Channel Information, this might take a while...",
+		"epgNotFound": "No EPG found for this channel...",
+		"epgTitle": "Title:",
+		"epgDesc": "Description:",
+		"epgStartTime": "Start Time:",
+		"epgEndTime": "End Time:",
+		"fullEPG": "Channel TV Guide",
+		"message": "Do you have any other Media Players installed?\r\n\r\nIf so, press YES and pick your player. (WARNING: for iOS, it will only work with VLC.)\r\n\r\nPressing NO will launch the integrated player in the app, keep in mind IT DOES NOT handle subtitles and it is very experimental on both iOS and Android.\r\n\r\nPressing outside of this box cancels opening.",
+		"no": "NO",
+		"title": "Pick a player",
+		"viewNow": "VIEW NOW",
+		"yes": "YES"
+	},
+	"login": {
+		"loginButton": "Login",
+		"placeholderURL": "Host URL",
+		"placeholderUsername": "Username",
+		"placeholderPassword": "Password",
+		"toastEmptyURL": "Please input a URL!",
+		"toastInvalidURL": "Please input a valid URL!",
+		"toastUsername": "Please input a username!",
+		"toastPassword": "Please input a password!",
+		"toastError": "Something went wrong during the Login Stage!",
+		"wifiWarning": "WARNING!",
+		"wifiWarningDesc": "The use of WiFi with this application is very recommended!"
+	},
+	"vod": {
+		"activityIndicatorText": "%s Categories left to load, obtained %s VODs in total, this might take a while...",
+		"filterVODsNotFound": "No results found! Default to full list.",
+		"noCategoriesError": "ERROR!",
+		"noCategoriesErrorDesc": "No Categories/VODs found! \n Could be an error on the Server, or you don't have access to this.",
+		"searchPlaceholder": "Search by VOD..."
+	},
+	"vodChannel": {
+		"message": "Do you have any other Media Players installed?\r\n\r\nIf so, press YES and pick your player. (WARNING: for iOS, it will only work with VLC.)\r\n\r\nPressing NO will launch the integrated player in the app, keep in mind IT DOES NOT handle subtitles and it is very experimental on both iOS and Android.\r\n\r\nPressing outside of this box cancels opening.",
+		"no": "NO",
+		"title": "Pick a player",
+		"viewNow": "VIEW NOW",
+		"yes": "YES",
+		"cast": "Cast:",
+		"plot": "Plot:",
+		"genre": "Genre:",
+		"rating": "Rating:",
+		"director": "Director:",
+		"releasedate": "Release Date:",
+		"duration": "Duration:"
+	}
+}
