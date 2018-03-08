@@ -1,7 +1,7 @@
 {
   "name": "xtream-iptv-player-reactnative",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "babel-eslint": "^8.1.2",
     "eslint": "^4.14.0",
@@ -34,5 +34,6 @@
     "react-native-vlcplayer": "git+https://github.com/ruddell/react-native-vlcplayer",
     "react-navigation": "^1.0.0-beta.23",
     "sprintf-js": "git+https://github.com/zGrav/sprintf.js"
-  }
+  },
+  "repository": "http://zgrav.pro:8080/zgrav/xtream-iptv-player-reactnative"
 }
