@@ -92,7 +92,7 @@ export default class App extends Component {
 			this.toast.show(getLocalizedString('login.toastEmptyURL'), DURATION.LENGTH_LONG);
 			return;
 		}
-		if (!url.startsWith('http')) {
+		if (!url.startsWith('http') || url.startsWith('https')) {
 			this.toast.show(getLocalizedString('login.toastInvalidURL'), DURATION.LENGTH_LONG);
 			return;
 		}

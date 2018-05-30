@@ -73,7 +73,7 @@ class LiveScreen extends Component {
 		this.clearOnEmpty();
 
 		const liveArray = await AsyncStorage.getItem('@IPTVPlayer:LiveArray');
-		if (liveArray) {
+		if (liveArray && liveArray.length > 0) {
 			categoriesAndChannels = JSON.parse(liveArray);
 
 			categoriesAndChannels.forEach((c) => {
@@ -230,7 +230,7 @@ class LiveScreen extends Component {
 				return;
 			}
 
-			chItem = ch.stream_icon.startsWith('http') ? (
+			chItem = ch.stream_icon.startsWith('http') || ch.stream_icon.startsWith('https') ? (
 				<ListItem
 					key={ch.stream_id}
 					avatar={{ uri: ch.stream_icon }}

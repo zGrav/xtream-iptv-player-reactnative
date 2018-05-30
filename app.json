@@ -1,6 +1,6 @@
 {
   "expo": {
-    "sdkVersion": "23.0.0",
+    "sdkVersion": "27.0.0",
     "ios": {
       "bundleIdentifier": "z.reactnative.iptvplayer",
       "publishBundlePath": "ios/xtream-iptv-player-reactnative/Supporting/shell-app.bundle",
@@ -15,16 +15,12 @@
     "version": "0.1.0",
     "isDetached": true,
     "detach": {
-      "scheme": "exp136b7009c22849b18ccdb3f232ca3804",
-      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.1.4-sdk23.0.0-f67c5bc3-4a27-40f6-8686-91e8f868a145.tar.gz",
-      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.1.2-sdk23.0.0-d47f172b-1ed3-4c8f-9e48-239052c678b6.tar.gz"
+      "scheme": "exp4bb358c7fbdf4c86a8f551f4634159aa",
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.5.10-sdk27.0.0-7e6dd135-e649-48e2-ab7c-e76521ce6259.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.5.3-sdk27.0.0-408c8d77-8d1f-4784-b7b4-93826250663a.tar.gz"
     },
-    "loading": {
-      "icon": "./common/z_1_250.png",
-      "hideExponentText": false,
-      "splash": {
-        "image": "./common/z_1_250.png"
-      }
+    "splash": {
+      "image": "./common/z_1_250.png"
     }
   }
 }

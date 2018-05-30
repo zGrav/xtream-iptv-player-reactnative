@@ -7,6 +7,8 @@ function getCategories(url, username, password, buttonIndex) {
 		action = 'get_live_categories';
 	} else if (buttonIndex === 1) {
 		action = 'get_vod_categories';
+	} else if (buttonIndex === 2) {
+		action = 'get_series_categories';
 	}
 
 	try {

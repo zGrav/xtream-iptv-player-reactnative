@@ -1,14 +1,16 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 
+EXPO_CPP_HEADER_DIR = 'ExpoKit'
+
 target 'xtream-iptv-player-reactnative' do
- pod 'MobileVLCKit-unstable', '3.0.0a51' 
- pod 'ExpoKit',
+  pod 'ExpoKit',
     :git => "http://github.com/expo/expo.git",
-    :tag => "ios/2.1.4",
+    :tag => "ios/2.5.10",
     :subspecs => [
       "Core",
-      "CPP"
+      "CPP",
+      "GL"
     ]
 
   pod 'React',
@@ -36,13 +38,17 @@ target 'xtream-iptv-player-reactnative' do
   pod 'Folly',
     :podspec => "../node_modules/react-native/third-party-podspecs/Folly.podspec",
     :inhibit_warnings => true
-  pod 'GLog',
-    :podspec => "../node_modules/react-native/third-party-podspecs/GLog.podspec",
+  pod 'glog',
+    :podspec => "../node_modules/react-native/third-party-podspecs/glog.podspec",
     :inhibit_warnings => true
 
 
-
   pod 'react-native-orientation', :path => '../node_modules/react-native-orientation'
+
+
+  pod 'react-native-locale', :path => '../node_modules/react-native-locale'
+
+  pod 'MobileVLCKit-unstable', '3.0.0a59'  
 
   post_install do |installer|
     installer.pods_project.main_group.tab_width = '2';
@@ -54,6 +60,7 @@ target 'xtream-iptv-player-reactnative' do
       target.native_target.build_configurations.each do |config|
         config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] ||= ['$(inherited)']
         config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] << 'EX_DETACHED=1'
+        
         # needed for GoogleMaps 2.x
         config.build_settings['FRAMEWORK_SEARCH_PATHS'] ||= []
         config.build_settings['FRAMEWORK_SEARCH_PATHS'] << '${PODS_ROOT}/GoogleMaps/Base/Frameworks'
@@ -62,7 +69,7 @@ target 'xtream-iptv-player-reactnative' do
     end
 
 
-    if target.pod_name == 'AppAuth'
+    if ['Amplitude-iOS','Analytics','AppAuth','Branch','CocoaLumberjack','FBSDKCoreKit','FBSDKLoginKit','FBSDKShareKit','GPUImage','JKBigInteger2'].include? target.pod_name
       target.native_target.build_configurations.each do |config|
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
       end

@@ -88,6 +88,11 @@ class Account extends Component {
 				{
 					url, username, password, buttonIndex, user_info,
 				});
+		} else if (buttonIndex === 2) {
+			this.props.navigation.navigate('Series',
+				{
+					url, username, password, buttonIndex, user_info,
+				});
 		}
 	}
 
@@ -97,8 +102,9 @@ class Account extends Component {
 		const checkForMessage = user_info.message ? <Text selectable={false} style={styles.accountInfo}> {getLocalizedString('account.message')} {user_info.message} </Text> : null;
 
 		const liveButton = () => <Icon name='television' type='font-awesome' />;
-		const vodButton = () => <Icon name='film' type='font-awesome' />;
-		const buttons = [{ element: liveButton }, { element: vodButton } ];
+		const vodButton = () => <Icon name='video-camera' type='font-awesome' />;
+		const seriesButton = () => <Icon name='film' type='font-awesome' />;
+		const buttons = [{ element: liveButton }, { element: vodButton }, { element: seriesButton } ];
 
 		return (
 			<ScrollView>

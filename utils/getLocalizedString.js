@@ -1,15 +1,12 @@
 import { vsprintf } from 'sprintf-js';
-import { NativeModules, Platform } from 'react-native';
 
 const DefaultUserLang = 'en';
 
 async function getLanguageCode() {
-	let systemLanguage = 'en';
-	if (Platform.OS === 'android') {
-		systemLanguage = NativeModules.I18nManager.localeIdentifier;
-	} else {
-		systemLanguage = await NativeModules.ExponentUtil.getCurrentLocaleAsync();
-	}
+	const Locale = require('react-native-locale');
+	const getLocaleConstants = await Locale.constants();
+	const systemLanguage = getLocaleConstants.localeIdentifier;
+
 	const languageCode = systemLanguage.substring(0, 2);
 	return languageCode;
 }

@@ -71,5 +71,12 @@
 		"director": "Director:",
 		"releasedate": "Data de lançamento:",
 		"duration": "Duração:"
-	}
+	},
+	"series": {
+		"activityIndicatorText": "Faltam carregar %s Categorias, encontrados %s VODs e %s Episodios no total, isto poderá demorar um bocado...",
+		"filterSeriesNotFound": "No results found! Default to full list.",
+		"noCategoriesError": "ERRO!",
+		"noCategoriesErrorDesc": "Sem Categorias/VODs! \n Pode ter ocorrido um erro no servidor ou não tem acesso a isto.",
+		"searchPlaceholder": "Pesquisar por VOD..."
+	},
 }

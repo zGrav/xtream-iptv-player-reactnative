@@ -71,5 +71,12 @@
 		"director": "Director:",
 		"releasedate": "Release Date:",
 		"duration": "Duration:"
-	}
+	},
+	"series": {
+		"activityIndicatorText": "%s Categories left to load, obtained %s Series and %s Episodes in total, this might take a while...",
+		"filterSeriesNotFound": "No results found! Default to full list.",
+		"noCategoriesError": "ERROR!",
+		"noCategoriesErrorDesc": "No Categories/Series found! \n Could be an error on the Server, or you don't have access to this.",
+		"searchPlaceholder": "Search by Series..."
+	},
 }

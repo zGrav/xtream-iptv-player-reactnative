@@ -73,7 +73,7 @@ class VODScreen extends Component {
 		this.clearOnEmpty();
 
 		const VODArray = await AsyncStorage.getItem('@IPTVPlayer:VODArray');
-		if (VODArray) {
+		if (VODArray && VODArray.length > 0) {
 			categoriesAndVODs = JSON.parse(VODArray);
 
 			categoriesAndVODs.forEach((c) => {
@@ -230,7 +230,7 @@ class VODScreen extends Component {
 				return;
 			}
 
-			vodItem = vod.stream_icon.startsWith('http') ? (
+			vodItem = vod.stream_icon.startsWith('http') || vod.stream_icon.startsWith('https') ? (
 				<ListItem
 					key={vod.stream_id}
 					avatar={{ uri: vod.stream_icon }}

@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>z.reactnative.xtreamiptvplayer</string>
+	<string>z.reactnative.iptvplayer</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -23,7 +23,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>exp42b207f91cdf471b8e530c27c017bd43</string>
+				<string>exp4bb358c7fbdf4c86a8f551f4634159aa</string>
 			</array>
 		</dict>
 		<dict>
@@ -31,7 +31,7 @@
 			<string>OAuthRedirect</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>z.reactnative.xtreamiptvplayer</string>
+				<string>z.reactnative.iptvplayer</string>
 			</array>
 		</dict>
 	</array>
@@ -58,6 +58,8 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Allow xtream-iptv-player-reactnative to access your calendar</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Allow xtream-iptv-player-reactnative to use your camera</string>
 	<key>NSContactsUsageDescription</key>
@@ -72,12 +74,16 @@
 	<string>Give xtream-iptv-player-reactnative permission to save photos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Give xtream-iptv-player-reactnative permission to access your photos</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Allow xtream-iptv-player-reactnative to access your reminders</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array/>
 	<key>UIRequiresFullScreen</key>
 	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
