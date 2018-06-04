@@ -135,3 +135,10 @@
 -keep class org.spongycastle.**
 -dontwarn org.spongycastle.jce.provider.X509LDAPCertStoreSpi
 -dontwarn org.spongycastle.x509.util.LDAPStoreHelper
+
+-keep class org.videolan.**
+
+-keep class **libvlc**
+-keep class **LibVLC**
+-keepclassmembers class **libvlc** {*;}
+-keepclassmembers class **LibVLC** {*;}
